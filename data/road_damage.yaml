@@ -1,0 +1,20 @@
+
+
+nc: 8
+path: ../jsai_data/
+train: # train images (relative to 'path')  16551 images
+  - train
+val: # val images (relative to 'path')  4952 images
+  - val
+# Classes
+names:
+  0: horizontal_crack
+  1: longitudinal_crack
+  2: block_crack
+  3: pit
+  4: crack
+  5: repair_mesh_crack
+  6: repair_crack
+  7: repair_pit
+
+
